@@ -40,7 +40,7 @@ public class Main {
             NumberFormat currency = NumberFormat.getCurrencyInstance();
             String result = currency.format(mortgage);
 
-            out.println("Mortgage:" + result);
+            out.println("Mortgage Payments:" + result);
 
         }
 
